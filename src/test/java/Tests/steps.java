@@ -1,11 +1,14 @@
 package Tests;
 
 import Pages.*;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -14,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class steps {
     public WebDriver driver;
 
-
+    @Before
     public void setup(){
         System.setProperty("webdriver.gecko.driver", "C:\\JavaAutomationJars\\geckodriver-v0.24.0-win64\\geckodriver.exe");
         driver = new FirefoxDriver();
@@ -24,7 +27,6 @@ public class steps {
 
     @Given("^Ingreso al sitio de Incluit$")
     public void ingresarSitio(){
-        setup();
         homePage hp = new homePage(driver);
         hp.goToHomePage();
     }
@@ -39,7 +41,6 @@ public class steps {
     public void verificarTeamMembers(String number){
         whyIncluitPage wip = new whyIncluitPage(driver);
         Assert.assertTrue(number.contains(wip.ReadTeamMembers()));
-        driver.quit();
     }
 
     //test case 1-B
@@ -55,7 +56,6 @@ public class steps {
         String titulo = "What We Do - IncluIT";
         whatWeDoPage wwdp = new whatWeDoPage(driver);
         Assert.assertTrue(titulo.contains(wwdp.obtenerTitulo()));
-        driver.quit();
     }
 
     //test case 1-C
@@ -77,21 +77,85 @@ public class steps {
             }
         }
         Assert.assertTrue(bandera);
-        driver.quit();
     }
 
     //test case 1-D
 
-    @When("^Hago click en el link contact us$")
+    @And("^Hago click en el link contact us$")
     public void clickContactUs(){
-        homePage hp = new homePage(driver);
-        hp.goToContactUsPage();
+        whatWeDoPage wwdp = new whatWeDoPage(driver);
+        wwdp.goToContactUsPage();
     }
 
     @Then("^Ingreso a la pagina contact us$")
     public void verificarTituloContactUs(){
-        String titulo = "Contact U - IncluIT";
+        String titulo = "Contact Us - IncluIT";
         contactUsPage cup = new contactUsPage(driver);
-        Assert.assertTrue(titulo.contains(cup.obtenerTitulo()));
+        cup.compararTitulo(titulo);
+        //Assert.assertTrue(titulo.contains(cup.obtenerTitulo()));
+    }
+
+    //test case 2
+
+    @Given("^Me encuentro en la pagina de contact us$")
+    public void posicionarseContactUS(){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.goToContactUsPage();
+    }
+
+    @When("^Ingreso el nombre \"([^\"]*)\"$")
+    public void ingresarNombre(String nombre){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.ingresarName(nombre);
+    }
+
+    @And("^El E-Mail \"([^\"]*)\"$")
+    public void ingresarE_Mail(String eMail){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.ingresarEMail(eMail);
+    }
+
+    @And("^Ingreso el subject \"([^\"]*)\"$")
+    public void ingresarAsunto(String subject){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.ingresarSubject(subject);
+    }
+
+    @And("^Ingreso el mensaje \"([^\"]*)\"$")
+    public void ingresarMensaje(String message){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.ingresarMessage(message);
+    }
+
+    @And("^Hago click en el boton SEND$")
+    public void enviarMensaje() throws InterruptedException {
+        JavascriptExecutor jse = (JavascriptExecutor)driver;
+        jse.executeScript("scroll(0, 350);");
+        contactUsPage cup = new contactUsPage(driver);
+        cup.clickSend();
+        Thread.sleep(3000);
+    }
+
+    @Then("^Se envia el formulario y muestra el texto \"([^\"]*)\"$")
+    public void validarEnvioYConfirmacion(String texto){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.confirmarSend(texto);
+    }
+
+    @When("^Hago click en home$")
+    public void irHomePage(){
+        contactUsPage cup = new contactUsPage(driver);
+        cup.goToHomePage();
+    }
+
+    @Then("^Ingresa a la pagina home$")
+    public void verfificarHomePage(){
+        homePage hp = new homePage(driver);
+        hp.compararTitulo("IncluIT - Empowering Your Business");
+    }
+
+    @After
+    public void cerrarNavegador(){
+        driver.quit();
     }
 }
