@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d20a576d-b4a7-4dcb-be74-a0bbbd0fc1b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/homePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/whatWeDoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pages/whatWeDoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/story01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/story01.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/contactUsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/contactUsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/homePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Pages/whatWeDoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pages/whatWeDoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/story01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/story01.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/basePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
+            <state relative-caret-position="450">
               <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,12 +43,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/homePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="529">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1554#1555#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/story01.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="365">
+              <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -87,12 +76,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1581">
-              <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+            <state relative-caret-position="53">
+              <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4889#4890#0" expanded="true" />
-                <element signature="e#4918#4919#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,15 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1753#1754#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -150,6 +130,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thread</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -162,9 +147,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Pages/whyIncluitPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/studiosPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/whatWeDoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/Pages/homePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/story01.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/steps.java" />
       </list>
     </option>
@@ -203,7 +188,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,12 +253,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automationmobile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -291,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: El numero de team members es 450">
+  <component name="RunManager" selected="Cucumber java.Scenario: El formulario se envia y muestra un mensaje de confirmacion">
     <configuration name="Feature: story01" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/story01.feature" />
@@ -388,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: El formulario se envia y muestra un mensaje de confirmacion" />
+        <item itemvalue="Cucumber java.Scenario: En la pagina studios el studio Mobile existe" />
         <item itemvalue="Cucumber java.Scenario: El numero de team members es 450" />
         <item itemvalue="Cucumber java.Feature: story01" />
-        <item itemvalue="Cucumber java.Scenario: En la pagina studios el studio Mobile existe" />
         <item itemvalue="Cucumber java.Scenario: La pantalla what we do existe" />
-        <item itemvalue="Cucumber java.Scenario: El formulario se envia y muestra un mensaje de confirmacion" />
       </list>
     </recent_temporary>
   </component>
@@ -410,21 +395,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.14 at 19h 50m 56s.xml">
-      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.14 at 19h 56m 41s.xml">
-      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.14 at 19h 57m 30s.xml">
-      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.14 at 19h 58m 25s.xml">
-      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.14 at 20h 14m 14s.xml">
-      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__El_numero_de_team_members_es_450 - 2019.08.14 at 20h 15m 39s.xml">
       <configuration name="Scenario: El numero de team members es 450" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -440,12 +410,27 @@
     <history-entry file="Scenario__El_numero_de_team_members_es_450 - 2019.08.14 at 20h 20m 52s.xml">
       <configuration name="Scenario: El numero de team members es 450" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Scenario__En_la_pagina_studios_el_studio_Mobile_existe - 2019.08.15 at 12h 09m 33s.xml">
+      <configuration name="Scenario: En la pagina studios el studio Mobile existe" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.21 at 13h 47m 56s.xml">
+      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.21 at 13h 47m 54s.xml">
+      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.21 at 13h 51m 07s.xml">
+      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion - 2019.08.21 at 13h 54m 08s.xml">
+      <configuration name="Scenario: El formulario se envia y muestra un mensaje de confirmacion" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19288956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13747954" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,33 +486,17 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TP1_paginaIncluit$Scenario__El_formulario_se_envia_y_muestra_un_mensaje_de_confirmacion.ic" NAME="Scenario: El formulario se envia y muestra un mensaje de confirmacion Coverage Results" MODIFIED="1566406000182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/baseTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/basePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/whatWeDoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,32 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/homePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pages/studiosPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -579,21 +522,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/homePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/story01.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="365">
+          <caret line="27" column="43" lean-forward="true" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/basePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/contactUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Pages/whatWeDoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests/steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="100" column="40" selection-start-line="100" selection-start-column="40" selection-end-line="100" selection-end-column="40" />
+        <state relative-caret-position="53">
+          <caret line="135" column="29" lean-forward="true" selection-start-line="135" selection-start-column="29" selection-end-line="135" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4889#4890#0" expanded="true" />
-            <element signature="e#4918#4919#0" expanded="true" />
           </folding>
         </state>
       </provider>

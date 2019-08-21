@@ -3,6 +3,7 @@ package Pages;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class contactUsPage extends basePage {
 
@@ -53,6 +54,7 @@ public class contactUsPage extends basePage {
     }
 
     public void confirmarSend(String texto){
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(msjConfirm)));
         System.out.println("El text esperado es "+ texto);
         System.out.println("El texto obtenido de la pagina es "+ driver.findElement(msjConfirm).getText());
         Assert.assertTrue(texto.equalsIgnoreCase(driver.findElement(msjConfirm).getText()));

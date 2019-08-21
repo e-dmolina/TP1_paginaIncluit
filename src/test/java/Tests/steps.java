@@ -128,12 +128,12 @@ public class steps {
     }
 
     @And("^Hago click en el boton SEND$")
-    public void enviarMensaje() throws InterruptedException {
+    public void enviarMensaje(){
         JavascriptExecutor jse = (JavascriptExecutor)driver;
         jse.executeScript("scroll(0, 350);");
         contactUsPage cup = new contactUsPage(driver);
         cup.clickSend();
-        Thread.sleep(3000);
+        //Thread.sleep(3000);
     }
 
     @Then("^Se envia el formulario y muestra el texto \"([^\"]*)\"$")
